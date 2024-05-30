@@ -1,0 +1,27 @@
+name: cerbi_demo_app
+description: Demo app to demonstrate vector tiles
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: ^3.1.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  provider: ^6.0.0
+  flutter_map: ^7.0.0
+  latlong2: ^0.9.0
+  flutter_map_cancellable_tile_provider: ^3.0.0-dev.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
